@@ -41,7 +41,7 @@ class LoginController extends Controller
     public function redirectPath()
     {
 
-        $url = '/user';
+        $url = '/home';
 
         if (method_exists($this, 'redirectTo')) {
             return $this->redirectTo();
